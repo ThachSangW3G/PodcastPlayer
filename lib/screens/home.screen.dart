@@ -52,7 +52,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 style: TextStyle(
                     color: Colors.white,
                     fontFamily: 'SF Pro Display',
-                    fontSize: 20),
+                    fontSize: 22),
               ),
               const SizedBox(
                 height: 5,

@@ -134,14 +134,12 @@ class _PodcastPlayerScreenState extends State<PodcastPlayerScreen> {
                   Text(
                     '02:36',
                     style: TextStyle(
-                        color: AppColors.inActiveColor,
-                        fontFamily: 'SF Pro Text'),
+                        color: AppColors.hintColor, fontFamily: 'SF Pro Text'),
                   ),
                   Text(
                     '03:06',
                     style: TextStyle(
-                        color: AppColors.inActiveColor,
-                        fontFamily: 'SF Pro Text'),
+                        color: AppColors.hintColor, fontFamily: 'SF Pro Text'),
                   )
                 ],
               ),

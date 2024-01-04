@@ -44,13 +44,12 @@ class PodCastComponent extends StatelessWidget {
                             fontFamily: 'SF Pro Text'),
                       ),
                       const SizedBox(
-                        width: 5,
+                        width: 15,
                       ),
                       Text(
                         podCast.time,
                         style: const TextStyle(
-                            color: AppColors.hintColor,
-                            fontFamily: 'SF Pro Text'),
+                            color: Colors.white, fontFamily: 'SF Pro Text'),
                       ),
                     ],
                   ),
