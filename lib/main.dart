@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:podcast_player/constants/colors.dart';
 import 'package:podcast_player/models/podcast.model.dart';
 import 'package:podcast_player/routes/app.route.dart';
+import 'package:podcast_player/screens/bottomnavigation.dart';
 import 'package:podcast_player/screens/home.screen.dart';
 import 'package:podcast_player/screens/postcastplayer.screen.dart';
 
@@ -23,6 +24,6 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.amberAccent),
           useMaterial3: true,
         ),
-        home: const HomeScreen());
+        home: const BottomNavigation());
   }
 }
