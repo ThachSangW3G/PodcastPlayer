@@ -2,7 +2,7 @@ import 'package:curved_labeled_navigation_bar/curved_navigation_bar_item.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:podcast_player/constants/colors.dart';
-import 'package:podcast_player/screens/home.screen.dart';
+import 'package:podcast_player/screens/home_screen.dart';
 
 class BottomNavigation extends StatefulWidget {
   const BottomNavigation({super.key});
